@@ -460,6 +460,11 @@ p.textarea-title-bottom{
 .textarea-bottom-input:hover{
   color: #a70c5d;
 }
+
+p.textarea-bottom-input{
+  margin: 20px;
+}
+
 input{
   padding: 10px;
 }
@@ -467,10 +472,9 @@ input{
   font-family: GothamPro-Medium,sans-serif;
   font-size: 11px;
   text-transform: uppercase;
+  margin:20px;
 }
-#form-bottom-title  {
-  margin:7px;
-}
+
 .textarea-block {
   border: solid 1px #dcdcdc;
   float: right;
