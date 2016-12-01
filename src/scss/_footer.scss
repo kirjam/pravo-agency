@@ -1,0 +1,122 @@
+.footer {
+  text-align: center;
+}
+
+.footer-name {
+  font-family: GothamPro-Black, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #3f4147;
+}
+
+.footer-contacts {
+  font-family: GothamPro, sans-serif;
+  font-size: 18px;
+  color: #3f4147;
+}
+
+.footer-email {
+  display: block;
+  font-family: GothamPro, sans-serif;
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #3f4147;
+}
+
+.footer-email:hover {
+  color: #a70c5d;
+}
+
+
+.social {
+  width: 160px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.social li {
+  float: left;
+  list-style-type: none;
+}
+
+.social a {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #dbdbdc;
+  display: block;
+  position: relative;
+  margin: 5px;
+}
+
+.social-fb:hover {
+  border: 2px solid #4a6bb8;
+}
+
+.social-fb::before {
+  content: '';
+  width: 5px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  background: url(../img/fb.png);
+}
+
+.social-fb:hover::before {
+  background: url(../img/fb-active.png);
+}
+
+.social-tw:hover {
+  border: 2px solid #7eaef5;
+}
+
+.social-tw::before {
+  content: '';
+  width: 15px;
+  height: 11px;
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  background: url(../img/tw.png);
+}
+
+.social-tw:hover::before {
+  background: url(../img/tw-active.png);
+}
+
+.social-in:hover {
+  border: 2px solid #3957ff;
+}
+
+.social-in::before {
+  content: '';
+  width: 12px;
+  height: 13px;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  background: url(../img/in.png);
+}
+
+.social-in:hover::before {
+  background: url(../img/in-active.png);
+}
+
+.copyright {
+  text-align: center;
+  font-family: GothamPro, sans-serif;
+  font-size: 12px;
+  line-height: 50px;
+  color: #3f4147;
+}
+
+.copyright span {
+  font-family: GothamPro-Bold, sans-serif;
+  color: #3f4147;
+}

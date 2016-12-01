@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravo agency</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- scrollable content -->
+<div class="start-screen" id="scrollable" onscroll="scroll()">
+<!-- .header -->
+<header class="header clearfix">
+    <div class="wrapper">
+        <a class="logo" href="#">
+            <img src="img/logo.png">
+        </a>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a class="" onclick="scrollToPrice()">Услуги и цены</a>
+                </li>
+                <li>
+                    <a class="" onclick="scrollToReviews()">Отзывы</a>
+                </li>
+                <li>
+                    <a class="" onclick="scrollToContacts()">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="switch-btn">
+            <a class="switch-btn-left" href="#"></a>
+            <a class="switch-btn-right" href="#">ru</a>
+        </div>
+    </div>
+</header>
+<!-- end .header  -->
+
+<!--  .main  -->
+<main>
+    <!-- .content-block-1  -->
+    <section class="content-block-1 clearfix">
+        <div class="wrapper clearfix">
+            <article class="content-block-1-text">
+                <h1>Правовое <br> сопровождение <br> малого ИТ-бизнеса</h1>
+                <hr class="hr-1">
+                <p>Зачастую интернет-проекты, разработчики, маркетологи, дизайнеры, стартаперы и другие IT-специалисты не уделяют должного внимания правовым аспекам своей деятельности.</p>
+                <p>Но <span class="bold">документы должны быть в порядке</span>, и мы в этом поможем.</p>
+                <button class="btn btn-top" type="button" onclick="scrollToPrice()"><span>услуги и цены</span></button>
+            </article>
+
+            <a href="#" title="play" class="play"></a>
+        </div>
+    </section>
+    <!-- end .content-block-1 -->
+
+    <!-- .content-block-2  -->
+    <section class="content-block-2 clearfix">
+        <div class="wrapper clearfix">
+            <header class="content-block-title ">
+                <h3>Услуги и Цены</h3>
+                <hr>
+                <p><span class="bold">Pravo agency</span> выполняет роль юристов-аутсорсеров, надежно прикрывая правовой тыл вашей деятельности.</p>
+            </header>
+            <article class="services services-1">
+                <h4 class="entry-header services-header-1">Наведение порядка <br> в делах</h4>
+                <ul> Аудит документов и платеже на предмет:
+                    <li>соблюдения необходимых формальностей и процедур,</li>
+                    <li>наличия всех оригиналов договоров, актов,</li>
+                    <li>легализация зависших платежей.</li>
+                </ul>
+            </article>
+            <article class="services services-2">
+                <h4 class="entry-header services-header-2">Оптимизация <br> договорных отношений</h4>
+                <ul>
+                    <li>Доработка, латание дыр и улучшение условий основных типовых договоров вашей компании</li>
+                    <li>Оформление сотрудников на оптимальных условиях ведения деятельности и налогообложения</li>
+                    <li>Составление договоров, соглашений о конфиденциальности, публичных офферт</li>
+                </ul>
+            </article>
+            <article class="services services-3">
+                <h4 class="entry-header services-header-3">Правовое сопровождение деятельности (юрист-аутсорсер)</h4>
+                <ul>
+                    <li>Участие в заключении договоров: <br> минимизация рисков, усиление ваших позиций</li>
+                    <li>Юридическая консультация</li>
+                    <li>Дайджест предпринимательских ИТ-новостей с разъяснениями</li>
+                    <li>Представительств интересов в судах</li>
+                </ul>
+            </article>
+            <article class="services services-4">
+                <h4 class="entry-header services-header-4">Разработка договоров <br> и другой документации</h4>
+                <p>К сожалению, конфликты бывают в любой сфере. Если дело близится к суду или уже дошло до него, мы поможем отстоять ваши права и   интересы.</p>
+            </article>
+        </div>
+    </section>
+    <!-- end .content-block-2 -->
+
+    <!-- .module block -->
+    <div class="modal ">
+        <ul class="modal-top">
+            <li class="modal-top-service">услуга</li>
+            <li class="modal-top-service-content">
+                <h4>Оптимизация  договорных отношений</h4>
+                <p class="modal-text">Борьба внутри меня, и я был в самых разных ситуациях в моей жизни. <b>Таким образом, борьба, что у меня на постоянной основе, это просто пробовать и быть лучше. </b></p>
+                <p class="modal-text">Есть определенная разница между публичным человеком и обычным человеком, это как сойти с ума - для меня во всяком случае - открыть себя целиком для всего мира. </p>
+            </li>
+        </ul>
+        <ul class="modal-top">
+            <li class="modal-top-price">Цена</li>
+            <li class="modal-top-price-content">
+                <ul class="modal-list">
+                    <li class="modal-list-quantity">
+                        <p><b>&lt; 50</b></p>
+                        <span class="modal-list-quantity-text">Сотрудников</span><br>
+                        <span class="modal-list-quantity-text">от <b class="modal-list-quantity-price">5000</b> <b>грн.</b></span>
+                    </li>
+                    <li class="modal-list-quantity">
+                        <p><b>50-100</b></p>
+                        <span class="modal-list-quantity-text">Сотрудников</span><br>
+                        <span class="modal-list-quantity-text">от <b class="modal-list-quantity-price">15000</b> <b>грн.</b></span>
+                    </li>
+                    <li class="modal-list-quantity">
+                        <p><b>&gt; 100</b></p>
+                        <span class="modal-list-quantity-text">Сотрудников</span><br>
+                        <span class="modal-list-quantity-text">от <b class="modal-list-quantity-price">25000</b> <b>грн.</b></span>
+                    </li>
+                </ul>
+                <button class="modal-btn-order" type="button" name="order">заказать</button>
+            </li>
+        </ul>
+    </div>
+    <!-- end .module block -->
+
+    <!--  .content-block-3 -->
+    <section class="content-block-3 clearfix">
+        <div class="wrapper clearfix">
+            <header class="content-block-title block-title-3">
+                <h3>Отзывы</h3>
+                <hr>
+                <p>Мнение наших клиентов <span class="bold">делает мир и нас лучше:)</span></p>
+            </header>
+            <article class="comments">
+                <p>Главная тема для меня - любовь. Мы все хотим ее, но не знаем как получить, поэтому все, что мы делаем, - это все лишь попытки найти счастье.</p>
+                <figure class="comments-photo">
+                    <img src="img/face-1.png">
+                    <figcaption>Алексей Фёдоров</figcaption>
+                </figure>
+                <div class="comments-company">
+                    <p>СЕО</p>
+                    <a href="#">deco.agency</a>
+                </div>
+            </article>
+            <article class="comments comments-2">
+                <p>Главная тема для меня - любовь. Мы все хотим ее, но не знаем как получить, поэтому все, что мы делаем, - это все лишь попытки найти счастье.</p>
+                <figure class="comments-photo">
+                    <img src="img/face-2.png">
+                    <figcaption>Артур Оруджалиев</figcaption>
+                </figure>
+                <div class="comments-company">
+                    <p>СЕО</p>
+                    <a href="#">AIN.ua</a>
+                </div>
+            </article>
+            <article class="comments-3">
+                <figure class="comments-photo comments-photo-3">
+                    <img src="img/video.png">
+                    <a href="#"></a>
+                    <figcaption>Григорий Маленко</figcaption>
+                </figure>
+                <div class="comments-company">
+                    <p>СЕО</p>
+                    <a href="#">SERM.ua</a>
+                </div>
+            </article>
+            </div>
+    </section>
+    </div>
+<!-- end .content-block-2 -->
+
+<!-- end scrollable content -->
+
+<div class="after-scroll">
+
+    <!-- .content-block-4 -->
+    <section class=".content-block-4 clearfix">
+        <div class="wrapper clearfix">
+            <header>
+                <h3>Запрос на услуги</h3>
+                <hr>
+            </header>
+            <form name="fill-form" action="#" method="post">
+                <div class="form-left">
+                    <div class="input-block">
+                        <input type="text" id="name" name="name" placeholder="имя*">
+                        <label for="name">имя</label>
+                    </div>
+                    <div class="input-block">
+                        <input type="tel" id="tel" name="tel" placeholder="телефон*">
+                        <label for="name">телефон</label>
+                    </div>
+                    <div class="input-block">
+                        <input type="email" id="email" name="email" placeholder="e-mail*">
+                        <label for="name">e-mail</label>
+                    </div>
+                    <div class="input-block">
+                        <input type="url" id="url" name="url" placeholder="сайт*">
+                        <label for="name">сайт</label>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <div class="textarea-title">
+                        <label for="message">Дополнительная информация</label>
+                    </div>
+                    <div class="textarea-block">
+                        <textarea id="message" name="message" placeholder="Введите текст..."></textarea>
+                    </div>
+                </div>
+                <div class="form-bottom">
+                    <div class="textarea-title-bottom">
+                            <div id="form-bottom-title">Меня интересует</div>
+                        <p class="textarea-bottom-input"><input type="radio" name="input-1" value="1">Наведение порядка в делах</p>
+                       <p class="textarea-bottom-input"><input type="radio" name="input-2" value="2">Правовое сопровождение деятельности</p>
+                        <p class="textarea-bottom-input"><input type="radio" name="input-3" value="3">Оптимизация договорных отношений</p>
+                       <p class="textarea-bottom-input"><input type="radio" name="input-4" value="3">Разработка договоров</p>
+                    </div>
+                </div>
+
+                <div class="btn-block">
+                    <button class="btn btn-bottom" type="submit">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- end .content-block-4 -->
+</main>
+<!-- end .main -->
+
+<!-- footer -->
+<footer>
+    <div class="wrapper">
+        <div class="footer clearfix">
+            <p class="footer-name">Pravo agency:</p>
+            <p class="footer-contacts">01001, Киев, ул.Костёльная 9, оф.8</p>
+            <p class="footer-contacts">+380 (67) 324 10 10</p>
+            <a class="footer-email" href="#">hello@pravo.agency</a>
+            <ul class="social">
+                <li>
+                    <a class="social-fb" href="#"></a>
+                </li>
+                <li>
+                    <a class="social-tw" href="#"></a>
+                </li>
+                <li>
+                    <a class="social-in" href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <p class="copyright">&copy; 2015, <span>Pravo agency</span></p>
+    </div>
+</footer>
+<!-- end footer -->
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
